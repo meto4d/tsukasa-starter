@@ -8,7 +8,7 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 
 # 使い方
 
-(ここから)[https://github.com/meto4d/tsukasa-starter/release]DLして解凍します。
+[ここから](https://github.com/meto4d/tsukasa-starter/release)DLして解凍します。
 
 解凍したtsukasa-starter.exeを実行して、各項目を設定していきます。
 
@@ -50,4 +50,4 @@ ffmpegにわたすパラメータの設定ができます。
 ffmpegはprocessで実行して、ErrorDataReceivedでffmpegからの応答を受け取っているだけです。
 ffmpegの出力文字ってstderrで出力してるんですね。
 
-何かあれば(Twitter@meto4d)[https://twitter.com/meto4d]かなん実Vdiscordなどで
+何かあれば[Twitter@meto4d](https://twitter.com/meto4d)かなん実Vdiscordなどで
