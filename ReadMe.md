@@ -2,7 +2,7 @@
 
 OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](https://github.com/shinji3/tsukasa.exe)をより簡単に実行できるGUIプログラムです。
 
-基本tsukasa同梱のffmpegを実行することを主なシチュエーションとしています。
+基本的にtsukasa同梱のffmpegを実行することを主なシチュエーションとしています。
 
 多分Windows用です。
 
@@ -21,7 +21,17 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 後は右下のtsukasa実行ボタンを押し、置き場ページからpush待機設定や、OBSからの配信開始でkagamin配信ができます。
 
 
+なお、ffmpeg側の問題で、何も言わずに終了することがあります。
+*tsukasa再実行*にチェックを入れておくのを推奨します。
+
+
 # その他
+
+tsukasa同梱のffmpegのDL先はリンクしません。
+
+一応tsukasa単体とrtmpが使えるffmpeg単体でも使えます。
+
+ffmpegパラメータをイジイジしまくると、これ単体で配信もできます。
 
 ## portcheckボタン
 
