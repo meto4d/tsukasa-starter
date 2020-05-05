@@ -7,7 +7,7 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 
 # 使い方
 
-[ここから](https://github.com/meto4d/tsukasa-starter/release)DLして解凍します。  
+[ここから](https://github.com/meto4d/tsukasa-starter/releases)DLして解凍します。  
 解凍したらtsukasa-starter.exeを実行して、各項目を設定していきます。
 
 最低限必要な設定項目は4つです。
