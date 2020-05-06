@@ -35,7 +35,7 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 ## ffmpeg
 ***tsukasa同梱のffmpegのDL先はリンクしません。***  
 探してください。  
-壺のどこかにあるので、うまあじ紳士の方々には申し訳ないですが、がんばってください。　　
+壺のどこかにあるので、うまあじ紳士の方々には申し訳ないですが、がんばってください。  
 ライセンスのことよくわかってないけど、リンクしてもいいのかな？
 
 一応[tsukasa単体](https://github.com/shinji3/tsukasa.exe)とrtmpが使えるffmpeg単体でも使えます。  
