@@ -1,8 +1,8 @@
-﻿# Tsukasa-Starter
+# Tsukasa-Starter
 
 OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](https://github.com/shinji3/tsukasa.exe)をより簡単に実行できるGUIプログラムです。
 
-基本的にtsukasa同梱のffmpegを実行することを主なシチュエーションとしています。  
+基本的に***tsukasa同梱のffmpeg***を実行することを主なシチュエーションとしています。  
 多分Windows用です。
 
 # 使い方
@@ -48,7 +48,8 @@ ffmpegにわたすパラメータの設定ができます。
 
 ## 余談
 
-細かい部分はデバッグしていません。
+細かい部分はデバッグしていません。  
+記憶が正しければ、各リストの編集画面にて、空欄にして項目を消すときにバグるはずです。
 
 ffmpegはprocessで実行して、ErrorDataReceivedでffmpegからの応答を受け取っているだけです。  
 ffmpegの出力文字ってstderrで出力してるんですね。
