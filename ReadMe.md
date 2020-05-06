@@ -7,7 +7,14 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 
 # 使い方
 
-[ここから](https://github.com/meto4d/tsukasa-starter/releases)DLして解凍します。  
+## 必要なもの
+
+- tsukasa同梱のffmpeg  
+リンクしません。詳しくは以下の[ffmpeg項](https://github.com/meto4d/tsukasa-starter#ffmpeg)にて
+- [この*tsukasa-starter.exe*](https://github.com/meto4d/tsukasa-starter/releases)
+[そこから](https://github.com/meto4d/tsukasa-starter/releases)DLして解凍します。  
+
+## 設定すること
 解凍したらtsukasa-starter.exeを実行して、各項目を設定していきます。
 
 最低限必要な設定項目は4つです。
@@ -18,17 +25,21 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 
 後は右下のtsukasa実行ボタンを押し、置き場ページからpush待機設定や、OBSからの配信開始でkagamin配信ができます。
 
-
+## 余談
 なお、ffmpeg側の問題で、何も言わずに終了することがあります。  
-**tsukasa再実行**にチェックを入れておくのを推奨します。
-
+**tsukasa再実行**にチェックを入れておくのを推奨します。  
+あと、連打するとバグったので、**tsukasa実行**ボタンは連打禁止っぽい仕様にしてます。
 
 # その他
 
-tsukasa同梱のffmpegのDL先はリンクしません。
+## ffmpeg
+***tsukasa同梱のffmpegのDL先はリンクしません。***  
+探してください。  
+壺のどこかにあるので、うまあじ紳士の方々には申し訳ないですが、がんばってください。　　
+ライセンスのことよくわかってないけど、リンクしてもいいのかな？
 
-一応tsukasa単体とrtmpが使えるffmpeg単体でも使えます。  
-ffmpegパラメータをイジイジしまくると、これ単体で配信もできます。
+一応[tsukasa単体](https://github.com/shinji3/tsukasa.exe)とrtmpが使えるffmpeg単体でも使えます。  
+ffmpegパラメータをイジイジしまくると、これ単体で配信もできるはずです。
 
 ## portcheckボタン
 
