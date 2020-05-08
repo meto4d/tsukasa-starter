@@ -12,7 +12,7 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 - tsukasa同梱のffmpeg  
 リンクしません。詳しくは以下の[ffmpeg項](https://github.com/meto4d/tsukasa-starter#ffmpeg)にて
 - [この*tsukasa-starter.exe*](https://github.com/meto4d/tsukasa-starter/releases)  
-[そこから](https://github.com/meto4d/tsukasa-starter/releases)DLして解凍します。  
+[ここから](https://github.com/meto4d/tsukasa-starter/releases)DLして解凍します。  
 
 ## 設定すること
 解凍したらtsukasa-starter.exeを実行して、各項目を設定していきます。
