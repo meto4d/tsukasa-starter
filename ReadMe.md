@@ -25,6 +25,8 @@ OBSからkagaminでの配信を可能にするS2MMSHリメイクの[tsukasa](htt
 
 後は右下のtsukasa実行ボタンを押し、置き場ページからpush待機設定や、OBSからの配信開始でkagamin配信ができます。
 
+![設定項目参考画像](img/MainScreen.png)
+
 ## 余談
 なお、ffmpeg側の問題で、何も言わずに終了することがあります。  
 **tsukasa再実行**にチェックを入れておくのを推奨します。  
