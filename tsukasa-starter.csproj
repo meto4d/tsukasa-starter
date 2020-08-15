@@ -7,7 +7,7 @@
     <ProjectGuid>{75D85BF5-7B10-43A0-AD99-2FFC7346E396}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>tsukasa_starter</RootNamespace>
-    <AssemblyName>tsukasa-starter 1.0.0</AssemblyName>
+    <AssemblyName>tsukasa-starter 1.0.1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>

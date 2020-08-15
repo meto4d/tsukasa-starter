@@ -72,8 +72,8 @@ namespace tsukasa_starter
             {
                 okiba_port_comboBox.Items.Clear();
                 okiba_port_comboBox.Items.AddRange(Tsukasa_starter.okiba_port[Tsukasa_starter.okiba_URL[okiba_URL_comboBox.SelectedIndex]].ToArray());
-                Tsukasa_starter.okiba_URL_ch = (uint)okiba_URL_comboBox.SelectedIndex;
                 okiba_port_comboBox.SelectedIndex = 0;
+                Tsukasa_starter.okiba_URL_ch = (uint)okiba_URL_comboBox.SelectedIndex;
             }
 
             linkLabel.Text = Tsukasa_starter.okiba_output;
@@ -82,6 +82,7 @@ namespace tsukasa_starter
 
         private void okiba_port_comboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Tsukasa_starter.okiba_port_ch = (uint)((ComboBox)sender).SelectedIndex;
             linkLabel.Text = Tsukasa_starter.okiba_output;
         }
 
